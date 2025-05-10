@@ -1224,41 +1224,6 @@ footer .box-icons a:hover {
 }
 
 
-/* * Go to Bottom functionality */
-.go-to-bottom-container {
-  position: fixed;
-  bottom: 100px;
-  right: 20px;
-  width: 50px;
-  height: 45px;
-  margin-left: 25px;
-  /* display: none; */
-  cursor: pointer;
-  border-radius: 10px;
-  background: linear-gradient(to right, #00aaa7, #7f42a7, #6600c5, #1f2b9c,#2a46ff, #0099ff, #00aaa7);
-  background-size: 200%;
-  animation: animationGradient 2.5s linear infinite;
-  clip-path: polygon(0 0, 82% 0, 100% 34%, 100% 80%, 100% 99%, 0 100%, 0% 80%, 0% 20%);
-}
-.go-to-bottom {
-  position: absolute;
-  outline: none;
-  border: none;
-  font-size: 30px;
-  font-weight: 900;
-  inset: 3px;
-  border: none;
-  background-color: rgb(14, 12, 21);
-  color: lightgray;
-  border-radius: 10px;
-  clip-path: polygon(0 0, 82% 0, 100% 34%, 100% 80%, 100% 99%, 0 100%, 0% 80%, 0% 20%);
-  cursor: pointer;
-  transition: 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 /* * Go to Top functionality */
 .go-to-top-container {
   position: fixed;

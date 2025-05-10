@@ -60,23 +60,6 @@ const copyrightYear = document.querySelector('.copyright-year');
 copyrightYear.innerHTML = `${(new Date()).getFullYear()}`
 
 
-// * Go to Bottom Functionality
-function scrollToBottom() {
-  window.scrollTo(0, document.body.scrollHeight);
-}
-
-const goToBottomButton = document.querySelector(".go-to-bottom-container");
-goToBottomButton.addEventListener("click", scrollToBottom);
-
-window.addEventListener("scroll", () => {
-  if(window.pageYOffset < 200) {
-    goToBottomButton.style.display = "block";
-  } else {
-    goToBottomButton.style.display = "none";
-  }
-})
-
-
 // * Go to Top Functionality
 function scrollToTop() {
   window.scrollTo({
