@@ -801,6 +801,7 @@ header a:hover {
   font-size: 60px;
   color: white;
   text-align: center;
+  z-index: 900;
 }
 
 .pricing-section .price-box {
